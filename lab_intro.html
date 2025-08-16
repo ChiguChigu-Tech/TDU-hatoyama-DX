@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>東京電機大学 電大DXプロジェクト</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="東京電機大学 理工学部 理工学科 情報システムデザイン学系 電大DXプロジェクトです。情報デザイン総合演習の実習課題として作成されました。">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div id="container">
+
+	<header>
+		<h1 id="logo"><a href="index.html"><img src="images/dendaiDX-logos.jpeg" alt="SAMPLE COMPANY"></a></h1>
+		<!--ログインボタン-->
+		<div id="login"><a href="login.html">ログイン<img src="images/login.png" alt="ログイン"></a></div>
+	</header>
+
+<div id="menubar">
+
+<!--メインメニュー-->
+<nav>
+	<ul>
+		<li><a href="index.html">ホーム<span>Home</span></a></li>
+		<li><a href="cafe_intro.html">食堂メニュー<span>Cafeteria Menu</span></a></li>
+		<li><a href="info.php">教室利用状況検索<span>Search for classrooms usage</span></a></li>
+		<li><a href="fac_intro.html">施設紹介<span>Facility Introduction</span></a>
+			<ul>
+				<li><a href="fac_intro.html#1">1号館</a></li>
+				<li><a href="fac_intro.html#2">2号館</a></li>
+				<li><a href="fac_intro.html#3">3号館</a></li>
+				<li><a href="fac_intro.html#4">4号館</a></li>
+				<li><a href="fac_intro.html#5">5号館</a></li>
+				<li><a href="fac_intro.html#6">6号館</a></li>
+				<li><a href="fac_intro.html#7">7号館</a></li>
+				<li><a href="fac_intro.html#8">8号館</a></li>
+				<li><a href="fac_intro.html#9">9号館</a></li>
+				<li><a href="fac_intro.html#10">10号館</a></li>
+				<li><a href="fac_intro.html#11">11号館</a></li>
+				<li><a href="fac_intro.html#12">12号館</a></li>
+			</ul>
+		</li>
+		<li><a href="lab_intro.html">研究室紹介<span>Laboratory Introduction</span></a>
+			<ul>
+				<li><a href="lab_intro.html#RD">情報システムデザイン学系</a></li>
+				<li><a href="lab_intro.html#RU">理学系</a></li>
+				<li><a href="lab_intro.html#RB">生命科学系</a></li>
+				<li><a href="lab_intro.html#RM">機械工学系</a></li>
+				<li><a href="lab_intro.html#RE">電子工学系</a></li>
+				<li><a href="lab_intro.html#RG">建築・都市環境学系</a></li>
+			</ul>
+		</li>
+		<li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
+	</ul>
+</nav>
+
+</div>
+<!--/#menubar-->
+
+<div id="contents">
+
+<main>
+
+<section>
+	<div id="modDay">
+	<script>
+		// 日付を取得
+		var day = new Date(document.lastModified);
+		var y = day.getFullYear();
+		var m = day.getMonth() + 1;
+		var d = day.getDate();
+
+		// 曜日を指定して出力
+		var week = new Array("日", "月", "火", "水", "木", "金", "土");
+		var w = week[day.getDay()];
+
+		//日にちの整形
+		if (m < 10) m = "0" + m;
+		if (d < 10) d = "0" + d;
+
+		// modDayに出力
+		modDay.innerHTML += "<span>更新日 </span>" + y + "年" + m + "月" + d + "日 (" + w + ")";
+	</script>
+	</div>
+
+
+<font size="5" color="#ff0066">※最新の情報は大学公式／各研究室のホームページをご覧ください。</font>
+<h2>研究室一覧</h2>
+
+<div id="RD">
+	<h3>情報システムデザイン学系</h3>
+	<div class="list2">
+		<figure><a href="lab_info/RD/item_akiyama.html"><img src="images/no_image.png" alt=""></a></figure>
+		<div>
+			<h4><a href="lab_info/RD/item_akiyama.html">秋山　康智</a></h4>
+			<dl class="line">
+				<dt>研究室名</dt>
+				<dd>スマートICTソリューション研究室</dd>
+				<dt>連絡先</dt>
+				<dd>k.akiyama@mail.dendai.ac.jp</dd>
+				<dt>職種</dt>
+				<dd>教授</dd>
+			</dl>
+		</div>
+	</div>
+
+	<div class="list2">
+		<figure><a href="lab_info/RD/item_takahasi.html"><img src="images/no_image.png" alt=""></a></figure>
+		<div>
+			<h4><a href="lab_info/RD/item_takahasi.html">高橋　達二</a></h4>
+			<dl class="line">
+				<dt>研究室名</dt>
+				<dd>内部観測研究室</dd>
+				<dt>連絡先</dt>
+				<dd>tatsujit@mail.dendai.ac.jp</dd>
+				<dt>職種</dt>
+				<dd>教授</dd>
+			</dl>
+		</div>
+	</div>
+
+	<div class="list2">
+		<figure><a href="item.html"><img src="images/no_image.png" alt=""></a></figure>
+		<div>
+			<h4><a href="lab_info/RD/item_nakayama.html">中山　洋</a></h4>
+			<dl class="line">
+				<dt>研究室名</dt>
+				<dd>メディアコミュニケーション研究室</dd>
+				<dt>連絡先</dt>
+				<dd>nhiroshi@mail.dendai.ac.jp</dd>
+				<dt>職種</dt>
+				<dd>教授</dd>
+			</dl>
+		</div>
+	</div>
+
+	<div class="list2">
+		<figure><a href="item.html"><img src="images/no_image.png" alt=""></a></figure>
+		<div>
+			<h4><a href="lab_info/RD/item_katumoto.html">勝本　雄一朗</a></h4>
+			<dl class="line">
+				<dt>研究室名</dt>
+				<dd>うつろいの研究室</dd>
+				<dt>連絡先</dt>
+				<dd>katsumoto@mail.dendai.ac.jp</dd>
+				<dt>職種</dt>
+				<dd>准教授</dd>
+			</dl>
+		</div>
+	</div>
+
+	<div class="list2">
+		<figure><a href="item.html"><img src="images/no_image.png" alt=""></a></figure>
+		<div>
+			<h4><a href="lab_info/RD/item_shinohara.html">篠原　修二</a></h4>
+			<dl class="line">
+				<dt>研究室名</dt>
+				<dd>知能情報処理システム研究室</dd>
+				<dt>連絡先</dt>
+				<dd>s.shinohara@mail.dendai.ac.jp</dd>
+				<dt>職種</dt>
+				<dd>准教授</dd>
+			</dl>
+		</div>
+	</div>
+
+	<div class="list2">
+		<figure><a href="item.html"><img src="images/no_image.png" alt=""></a></figure>
+		<div>
+			<h4><a href="lab_info/RD/item_sato.html">佐藤　聖也</a></h4>
+			<dl class="line">
+				<dt>研究室名</dt>
+				<dd>機械学習・データマイニング研究室</dd>
+				<dt>連絡先</dt>
+				<dd>seiya.satoh@mail.dendai.ac.jp</dd>
+				<dt>職種</dt>
+				<dd>助教</dd>
+			</dl>
+		</div>
+	</div>
+</div>
+
+<div id="RU">
+	<h3>理学系</h3>
+	<div class="list2">
+		<figure><a href="item.html"><img src="images/no_image.png" alt=""></a></figure>
+		<div>
+			<h4><a href="item.html">準備中</a></h4>			
+			<dl class="line">
+				<dt>研究室名</dt>
+				<dd>〇〇研究室</dd>
+				<dt>連絡先</dt>
+				<dd>XXXXXX@mail.dendai.ac.jp</dd>
+				<dt>職種</dt>
+				<dd>〇〇</dd>
+			</dl>
+		</div>
+	</div>
+</div>
+
+<div id="RB">
+	<h3>生命科学系</h3>
+	<div class="list2">
+		<figure><a href="item.html"><img src="images/no_image.png" alt=""></a></figure>
+		<div>
+			<h4><a href="item.html">準備中</a></h4>
+			<dl class="line">
+				<dt>研究室名</dt>
+				<dd>〇〇研究室</dd>
+				<dt>連絡先</dt>
+				<dd>XXXXXX@mail.dendai.ac.jp</dd>
+				<dt>職種</dt>
+				<dd>〇〇</dd>
+			</dl>
+		</div>
+	</div>
+</div>
+
+<div id="RM">
+	<h3>機械工学系</h3>
+	<div class="list2">
+		<figure><a href="item.html"><img src="images/no_image.png" alt=""></a></figure>
+		<div>
+			<h4><a href="item.html">準備中</a></h4>
+			<dl class="line">
+				<dt>研究室名</dt>
+				<dd>〇〇研究室</dd>
+				<dt>連絡先</dt>
+				<dd>XXXXXX@mail.dendai.ac.jp</dd>
+				<dt>職種</dt>
+				<dd>〇〇</dd>
+			</dl>
+		</div>
+	</div>
+</div>
+
+<div id="RE">
+	<h3>電子工学系</h3>
+	<div class="list2">
+		<figure><a href="item.html"><img src="images/no_image.png" alt=""></a></figure>
+		<div>
+			<h4><a href="item.html">準備中</a></h4>
+			<dl class="line">
+				<dt>研究室名</dt>
+				<dd>〇〇研究室</dd>
+				<dt>連絡先</dt>
+				<dd>XXXXXX@mail.dendai.ac.jp</dd>
+				<dt>職種</dt>
+				<dd>〇〇</dd>
+			</dl>
+		</div>
+	</div>
+</div>
+
+<div id="RG">
+	<h3>建築・都市環境学系</h3>
+	<div class="list2">
+		<figure><a href="item.html"><img src="images/no_image.png" alt=""></a></figure>
+		<div>
+			<h4><a href="item.html">準備中</a></h4>
+			<dl class="line">
+				<dt>研究室名</dt>
+				<dd>〇〇研究室</dd>
+				<dt>連絡先</dt>
+				<dd>XXXXXX@mail.dendai.ac.jp</dd>
+				<dt>職種</dt>
+				<dd>〇〇</dd>
+			</dl>
+		</div>
+	</div>
+</div>
+
+</section>
+
+</main>
+
+<div id="sub">
+<nav class="box1"></nav>
+</div>
+<!--/#sub-->
+
+<div id="side">
+<nav class="box1"></nav>
+</div>
+<!--/#side-->
+
+</div>
+
+</div>
+<!--/#contents-->
+
+<div id="footermenu">
+	<ul>
+		<li class="title">メニュー</li>
+		<li><a href="lab_intro.html">研究室紹介</a></li>
+		<li><a href="#contents">研究室一覧</a></li>
+		<li><a href="#RD">情報システムデザイン学系</a></li>
+		<li><a href="#RU">理学系</a></li>
+		<li><a href="#RB">生命科学系</a></li>
+		<li><a href="#RM">機械工学系</a></li>
+		<li><a href="#RE">電子工学系</a></li>
+		<li><a href="#RG">建築・都市環境学系</a></li>
+	</ul>
+	
+	<ul>
+		<li class="title">メニュー見出し</li>
+		<li><a href="index.html">ホーム　　　　Home</a></li>
+		<li><a href="cafe_intro.html">食堂メニュー　Cafeteria Menu</a></li>
+		<li><a href="info.php">教室利用状況検索　Search for classrooms usage</a></li>
+		<li><a href="fac_intro.html">施設紹介　　　Facility Introduction</a></li>
+		<li><a href="lab_intro.html">研究室紹介　　Laboratory Introduction</a></li>
+		<li><a href="contact.html">お問い合わせ　Contact</a></li>
+	</ul>
+</div>
+<!--/#footermenu-->
+
+<footer>
+	<small>Copyright&copy; <a href="index.html">電大DXプロジェクト</a> All Rights Reserved.</small>
+	<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+</footer>
+
+</div>
+<!--/#container-->
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--biz57用のスクリプト-->
+<script src="js/main.js"></script>
+
+<!--ハンバーガーボタン（開閉操作のボタン）-->
+<div id="menubar_hdr"></div>
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+</body>
+</html>
