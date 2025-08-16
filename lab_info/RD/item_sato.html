@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>東京電機大学 電大DXプロジェクト</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="東京電機大学 理工学部 理工学科 情報システムデザイン学系 電大DXプロジェクトです。情報デザイン総合演習の実習課題として作成されました。">
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+
+<div id="container">
+	<header>
+		<h1 id="logo"><a href="../../index.html"><img src="../../images/dendaiDX-logos.jpeg" alt="SAMPLE COMPANY"></a></h1>
+		<!--ログインボタン-->
+		<div id="login"><a href="../../login.html">ログイン<img src="../../images/login.png" alt="ログイン"></a></div>
+	</header>
+
+
+<div id="menubar">
+
+<!--メインメニュー-->
+<nav>
+	<ul>
+		<li><a href="../../index.html">ホーム<span>Home</span></a></li>
+		<li><a href="../../cafe_intro.html">食堂メニュー<span>Cafeteria Menu</span></a></li>
+		<li><a href="../../info.php">教室利用状況検索<span>Search for classrooms usage</span></a></li>
+		<li><a href="../../fac_intro.html">施設紹介<span>Facility Introduction</span></a>
+			<ul>
+				<li><a href="../../fac_intro.html#1">1号館</a></li>
+				<li><a href="../../fac_intro.html#2">2号館</a></li>
+				<li><a href="../../fac_intro.html#3">3号館</a></li>
+				<li><a href="../../fac_intro.html#4">4号館</a></li>
+				<li><a href="../../fac_intro.html#5">5号館</a></li>
+				<li><a href="../../fac_intro.html#6">6号館</a></li>
+				<li><a href="../../fac_intro.html#7">7号館</a></li>
+				<li><a href="../../fac_intro.html#8">8号館</a></li>
+				<li><a href="../../fac_intro.html#9">9号館</a></li>
+				<li><a href="../../fac_intro.html#10">10号館</a></li>
+				<li><a href="../../fac_intro.html#11">11号館</a></li>
+				<li><a href="../../fac_intro.html#12">12号館</a></li>
+			</ul>
+		</li>
+		<li><a href="../../lab_intro.html">研究室紹介<span>Laboratory Introduction</span></a>
+			<ul>
+				<li><a href="../../lab_intro.html#RD">情報システムデザイン学系</a></li>
+				<li><a href="../../lab_intro.html#RU">理学系</a></li>
+				<li><a href="../../lab_intro.html#RB">生命科学系</a></li>
+				<li><a href="../../lab_intro.html#RM">機械工学系</a></li>
+				<li><a href="../../lab_intro.html#RE">電子工学系</a></li>
+				<li><a href="../../lab_intro.html#RG">建築・都市環境学系</a></li>
+			</ul>
+		</li>
+		<li><a href="../../contact.html">お問い合わせ<span>Contact</span></a></li>
+	</ul>
+</nav>
+</div>
+<!--/#menubar-->
+
+
+
+<div id="contents">
+
+<main>
+
+	<div id="modDay">
+		<script>
+			// 日付を取得
+			var day = new Date(document.lastModified);
+			var y = day.getFullYear();
+			var m = day.getMonth() + 1;
+			var d = day.getDate();
+	
+			// 曜日を指定して出力
+			var week = new Array("日", "月", "火", "水", "木", "金", "土");
+			var w = week[day.getDay()];
+	
+			//日にちの整形
+			if (m < 10) m = "0" + m;
+			if (d < 10) d = "0" + d;
+	
+			// modDayに出力
+			modDay.innerHTML += "<span>更新日 </span>" + y + "年" + m + "月" + d + "日 (" + w + ")";
+		</script>
+	</div>
+
+<article>
+
+<h1>機械学習・データマイニング研究室　ーー　<ruby>佐藤　聖也<rt>Satoh Seiya<br>サトウ　セイヤ</rt></h1>
+
+<table class="ta1">
+	<tr>
+	<th>主な研究テーマ</th>
+	<td>
+		<li>自分が解析（または予測）したいデータを機械学習モデルを用いて解析（または予測）</li>
+		<li>新しいニューラルネットの学習法の提案</li>
+		<li>ガウス過程、ニューラル過程を利用した株価予測など</li>
+		<li>ネットワーク（脳の神経回路等）などの時系列データの解析・解析手法の提案</li>
+	</td>
+	</tr>
+
+	<tr>
+		<th>研究キーワード</th>
+		<td>機械学習、ニューラルネット、時系列データ、ガウス過程</td>
+	</tr>
+	
+	<tr>
+	<th><h3>研究室の場所</h3></th>
+	<td>12号館5階 12503A室　</td>
+	</tr>
+
+	<tr>
+		<th>大学公式URL</th>
+		<td>
+			<a href="https://tinyurl.com/237kln6q">佐藤　聖也</a>
+		</td>
+	</tr>
+
+	<tr>
+	<th>研究室URL</th>
+	<td>
+		<a href="https://sites.google.com/view/satoh-seiya">個人ページ</a>
+	</td>
+	</tr>
+	
+	<tr>
+	<th>修士課程指導</th>
+	<td><font size="4" style="font-weight:bold" color="#f92323">不可</font></td>
+	</tr>
+
+	<tr>
+		<th>担当講義</th>
+		<td>多変量解析、オブジェクト指向プログラミング、知能情報デザイン概論、情報システムデザイン概論、情報数学Ⅰ、コンピュータプログラミングⅠ/Ⅱ・同演習、情報学基礎実習</td>
+	</tr>
+
+	<tr>
+		<th>その他</th>
+		<td>なし</td>
+	</tr>
+
+	<tr>
+		<th>編集者からのコメント</th>
+		<td>
+			<font size="2">
+				佐藤先生の研究室は、機械学習やデータマイニングを用いて、データの解析や予測、解析手法の提案を行っている。<br>
+				ニューラルネットに関わる研究を行っている研究室がRD学系には複数あるが、その中でも佐藤先生の研究室の特色は自身の裁量が大きいことである。
+				研究室のテーマは、先生との相談の下、機械学習などに関わることであれば、自由に決めることができる。<br>
+				また、修士課程の指導が不可となっているが、大学院に進学する際、名目上は高橋研に所属し、実際には佐藤研で研究するということも可能であるようだ。<br>
+				既に自分の研究テーマを決めている人、そのビジョンが明確な人で、かつ機械学習を利用したいと考えている人は、自分の研究テーマを先生に相談してみるといいだろう。<br>
+			</font>
+		</td>
+	</tr>
+
+</table>
+
+
+<p class="c"><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
+
+</article>
+
+</main>
+
+
+<div id="sub">
+	<nav class="box1"></nav>
+	</div>
+	<!--/#sub-->
+	
+	<div id="side">
+	<nav class="box1"></nav>
+	</div>
+	<!--/#side-->
+
+</div>
+<!--/#contents-->
+
+
+
+<div id="footermenu">		
+	<ul>
+		<li class="title">メニュー見出し</li>
+		<li><a href="../../index.html">ホーム　　　　Home</a></li>
+		<li><a href="../../cafe_intro.html">食堂メニュー　Cafeteria Menu</a></li>
+		<li><a href="../../info.php">教室利用状況検索　Search for classrooms usage</a></li>
+		<li><a href="../../fac_intro.html">施設紹介　　　Facility Introduction</a></li>
+		<li><a href="../../lab_intro.html">研究室紹介　　Laboratory Introduction</a></li>
+		<li><a href="../../contact.html">お問い合わせ　Contact</a></li>
+	</ul>
+
+	<ul>
+		<li class="title">RD学系 研究室一覧</li>
+		<li><a href="item_akiyama.html">秋山　康智</a></li>
+		<li><a href="item_takahasi.html">高橋　達二</a></li>
+		<li><a href="item_nakayama.html">中山　洋</a></li>
+		<li><a href="item_katumoto.html">勝本　雄一朗</a></li>
+		<li><a href="item_shinohara.html">篠原　修二</a></li>
+		<li><a href="item_sato.html">佐藤　聖也</a></li>
+	</ul>
+</div>
+<!--/#footermenu-->
+
+<footer>
+	<small>Copyright&copy; <a href="index.html">電大DXプロジェクト</a> All Rights Reserved.</small>
+	<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+</footer>
+
+</div>
+<!--/#container-->
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--biz57用のスクリプト-->
+<script src="../../js/main.js"></script>
+
+<!--ハンバーガーボタン（開閉操作のボタン）-->
+<div id="menubar_hdr"></div>
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+</body>
+</html>

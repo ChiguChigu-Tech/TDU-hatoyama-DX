@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>東京電機大学 電大DXプロジェクト</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="東京電機大学 理工学部 理工学科 情報システムデザイン学系 電大DXプロジェクトです。情報デザイン総合演習の実習課題として作成されました。">
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+
+<div id="container">
+	<header>
+		<h1 id="logo"><a href="../../index.html"><img src="../../images/dendaiDX-logos.jpeg" alt="SAMPLE COMPANY"></a></h1>
+		<!--ログインボタン-->
+		<div id="login"><a href="../../login.html">ログイン<img src="../../images/login.png" alt="ログイン"></a></div>
+	</header>
+
+
+<div id="menubar">
+
+<!--メインメニュー-->
+<nav>
+	<ul>
+		<li><a href="../../index.html">ホーム<span>Home</span></a></li>
+		<li><a href="../../cafe_intro.html">食堂メニュー<span>Cafeteria Menu</span></a></li>
+		<li><a href="../../search_room.html">空き教室検索<span>Search for empty classrooms</span></a></li>
+		<li><a href="../../fac_intro.html">施設紹介<span>Facility Introduction</span></a>
+			<ul>
+				<li><a href="../../fac_intro.html">1号館</a></li>
+				<li><a href="../../fac_intro.html#2">2号館</a></li>
+				<li><a href="../../fac_intro.html#3">3号館</a></li>
+				<li><a href="../../fac_intro.html#4">4号館</a></li>
+				<li><a href="../../fac_intro.html#5">5号館</a></li>
+				<li><a href="../../fac_intro.html#6">6号館</a></li>
+				<li><a href="../../fac_intro.html#7">7号館</a></li>
+				<li><a href="../../fac_intro.html#8">8号館</a></li>
+				<li><a href="../../fac_intro.html#9">9号館</a></li>
+				<li><a href="../../fac_intro.html10">10号館</a></li>
+				<li><a href="../../fac_intro.html11">11号館</a></li>
+				<li><a href="../../fac_intro.html12">12号館</a></li>
+			</ul>
+		</li>
+		<li><a href="../../lab_intro.html">研究室紹介<span>Laboratory Introduction</span></a>
+			<ul>
+				<li><a href="../../lab_intro.html#RD">情報システムデザイン学系</a></li>
+				<li><a href="../../lab_intro.html#RU">理学系</a></li>
+				<li><a href="../../lab_intro.html#RB">生命科学系</a></li>
+				<li><a href="../../lab_intro.html#RM">機械工学系</a></li>
+				<li><a href="../../lab_intro.html#RE">電子工学系</a></li>
+				<li><a href="../../lab_intro.html#RG">建築・都市環境学系</a></li>
+			</ul>
+		</li>
+		<li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
+	</ul>
+</nav>
+</div>
+<!--/#menubar-->
+
+
+
+<div id="contents">
+
+<main>
+
+	<div id="modDay">
+		<script>
+			// 日付を取得
+			var day = new Date(document.lastModified);
+			var y = day.getFullYear();
+			var m = day.getMonth() + 1;
+			var d = day.getDate();
+	
+			// 曜日を指定して出力
+			var week = new Array("日", "月", "火", "水", "木", "金", "土");
+			var w = week[day.getDay()];
+	
+			//日にちの整形
+			if (m < 10) m = "0" + m;
+			if (d < 10) d = "0" + d;
+	
+			// modDayに出力
+			modDay.innerHTML += "<span>更新日 </span>" + y + "年" + m + "月" + d + "日 (" + w + ")";
+		</script>
+	</div>
+
+<article>
+
+<h1>内部観測研究室　ーー　<ruby>高橋　達二<rt>Takahasi　Tatuji<br>タカハシ　タツジ</rt></h1>
+
+<table class="ta1">
+	<tr>
+	<th>主な研究テーマ</th>
+	<td>
+		<li>強化学習 　　: 人工知能・機械学習の一分野</li>
+		<li>認知科学 　　: 人間や動物がどのようにものを考え、学習するかについて<br>
+			　　　　　　　　 心理学含む実験やシミュレーションを行う。
+		</li>
+		<li>データ分析 　: SNSのネットワーク分析、経済分析、システム開発など</li>
+	</td>
+	</tr>
+
+	<tr>
+		<th>研究キーワード</th>
+		<td>知能情報学, 認知科学, ソフトコンピューティング, 実験心理学 キーワード(対称性バイアス、因果推論、認知バイアス、内部観測)</td>
+	</tr>
+	
+	<tr>
+	<th><h3>研究室の場所</h3></th>
+	<td>6号館2階 6205/6208室 </td>
+	</tr>
+
+	<tr>
+		<th>大学公式URL</th>
+		<td>
+			<a href="https://tinyurl.com/27rwa33o">高橋　達二</a>
+		</td>
+	</tr>
+
+	<tr>
+	<th>研究室URL</th>
+	<td>
+		<a href="https://tinyurl.com/2dyrvd2j">研究室配属について</a>
+	</td>
+	</tr>
+	
+	<tr>
+	<th>修士課程指導</th>
+	<td><font size="4" style="font-weight:bold">可</font></td>
+	</tr>
+
+	<tr>
+		<th>担当講義</th>
+		<td>知能情報デザイン概論、データ表現とプログラミング、情報デザイン演習Ⅰ/Ⅱ</td>
+	</tr>
+
+	<tr>
+		<th>その他</th>
+		<td><a href="https://tinyurl.com/26cb3y36">過去の論文・進路リスト</a></td>
+	</tr>
+
+	<tr>
+		<th>編集者からのコメント</th>
+		<td>
+			<font size="2">
+				RD学系の中でもかなり人気な研究室の一つ。2023年の研究室割り当てでは、定員11名に対して、21名もの第1志望者がいた。<br>
+				研究室は分科会というグレープに分かれており、分科会ごとに研究テーマが異なっており、現在は強化学習、認知科学、データ分析の3つである。<br>
+				複数の分科会に所属することができ、先輩や指導教員の方たちとともに研究やテーマに関連する勉強会を行う。<br>
+				筆者はAI分野に興味があり、研究室に訪問したことがあるが、研究室の雰囲気がとても良く、先輩方も優しく、研究に対する情熱が伝わってきた。<br>
+				学会発表や論文発表なども積極的に行っており、学部4年生の方でも学会発表を行っている人が多くいるそうなので、そういった経験を積みたい人にもおすすめである。<br>
+			</font>
+		</td>
+	</tr>
+
+</table>
+
+
+<p class="c"><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
+
+</article>
+
+</main>
+
+
+<div id="sub">
+	<nav class="box1"></nav>
+	</div>
+	<!--/#sub-->
+	
+	<div id="side">
+	<nav class="box1"></nav>
+	</div>
+	<!--/#side-->
+
+</div>
+<!--/#contents-->
+
+
+
+<div id="footermenu">		
+	<ul>
+		<li><a href="../../index.html">ホーム　　　　Home</a></li>
+		<li><a href="../../list_base.html">食堂メニュー　Cafeteria Menu</a></li>
+		<li><a href="../../info.html">空き教室検索　Search for empty classrooms</a></li>
+		<li><a href="../../fac_intro.html">施設紹介　　　Facility Introduction</a></li>
+		<li><a href="../../lab_intro.html">研究室紹介　　Laboratory Introduction</a></li>
+		<li><a href="../../contact.html">お問い合わせ　Contact</a></li>
+	</ul>
+
+	<ul>
+		<li class="title">RD学系 研究室一覧</li>
+		<li><a href="item_akiyama.html">秋山　康智</a></li>
+		<li><a href="item_takahasi.html">高橋　達二</a></li>
+		<li><a href="item_nakayama.html">中山　洋</a></li>
+		<li><a href="item_katumoto.html">勝本　雄一朗</a></li>
+		<li><a href="item_shinohara.html">篠原　修二</a></li>
+		<li><a href="item_sato.html">佐藤　聖也</a></li>
+	</ul>
+</div>
+<!--/#footermenu-->
+
+<footer>
+	<small>Copyright&copy; <a href="index.html">電大DXプロジェクト</a> All Rights Reserved.</small>
+	<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+</footer>
+
+</div>
+<!--/#container-->
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--biz57用のスクリプト-->
+<script src="../../js/main.js"></script>
+
+<!--ハンバーガーボタン（開閉操作のボタン）-->
+<div id="menubar_hdr"></div>
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+
+
+/* body */
+body{
+    background-color: white;
+    font-family: "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+}
+
+
+div.reg{
+    background-color: #EEEEEE;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.message{
+    text-align: right;
+    margin-right:auto;
+}
+
+table.reg_form{
+    width: 100%;
+    border-spacing: 10px 30px;
+    padding-left:20px;
+}
+
+.btn{
+    color: #fff;
+    background-color: #000033;
+    font-size: 1.0em;
+    padding: 10px 30px;
+    margin-left:80%;
+}
+
+.btn:hover{
+    color: #fff;
+    background: #000099;
+}
+
+div.explain{
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /*右寄せ*/
+    text-align: left;
+
+}

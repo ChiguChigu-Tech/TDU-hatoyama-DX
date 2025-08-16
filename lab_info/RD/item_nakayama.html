@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>東京電機大学 電大DXプロジェクト</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="東京電機大学 理工学部 理工学科 情報システムデザイン学系 電大DXプロジェクトです。情報デザイン総合演習の実習課題として作成されました。">
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+
+<div id="container">
+	<header>
+		<h1 id="logo"><a href="../../index.html"><img src="../../images/dendaiDX-logos.jpeg" alt="SAMPLE COMPANY"></a></h1>
+		<!--ログインボタン-->
+		<div id="login"><a href="../../login.html">ログイン<img src="../../images/login.png" alt="ログイン"></a></div>
+	</header>
+
+
+<div id="menubar">
+
+<!--メインメニュー-->
+<nav>
+	<ul>
+		<li><a href="../../index.html">ホーム<span>Home</span></a></li>
+		<li><a href="../../cafe_intro.html">食堂メニュー<span>Cafeteria Menu</span></a></li>
+		<li><a href="../../info.php">教室利用状況検索<span>Search for classrooms usage</span></a></li>
+		<li><a href="../../fac_intro.html">施設紹介<span>Facility Introduction</span></a>
+			<ul>
+				<li><a href="../../fac_intro.html#1">1号館</a></li>
+				<li><a href="../../fac_intro.html#2">2号館</a></li>
+				<li><a href="../../fac_intro.html#3">3号館</a></li>
+				<li><a href="../../fac_intro.html#4">4号館</a></li>
+				<li><a href="../../fac_intro.html#5">5号館</a></li>
+				<li><a href="../../fac_intro.html#6">6号館</a></li>
+				<li><a href="../../fac_intro.html#7">7号館</a></li>
+				<li><a href="../../fac_intro.html#8">8号館</a></li>
+				<li><a href="../../fac_intro.html#9">9号館</a></li>
+				<li><a href="../../fac_intro.html#10">10号館</a></li>
+				<li><a href="../../fac_intro.html#11">11号館</a></li>
+				<li><a href="../../fac_intro.html#12">12号館</a></li>
+			</ul>
+		</li>
+		<li><a href="../../lab_intro.html">研究室紹介<span>Laboratory Introduction</span></a>
+			<ul>
+				<li><a href="../../lab_intro.html#RD">情報システムデザイン学系</a></li>
+				<li><a href="../../lab_intro.html#RU">理学系</a></li>
+				<li><a href="../../lab_intro.html#RB">生命科学系</a></li>
+				<li><a href="../../lab_intro.html#RM">機械工学系</a></li>
+				<li><a href="../../lab_intro.html#RE">電子工学系</a></li>
+				<li><a href="../../lab_intro.html#RG">建築・都市環境学系</a></li>
+			</ul>
+		</li>
+		<li><a href="../../contact.html">お問い合わせ<span>Contact</span></a></li>
+	</ul>
+</nav>
+</div>
+<!--/#menubar-->
+
+
+
+<div id="contents">
+
+<main>
+
+	<div id="modDay">
+		<script>
+			// 日付を取得
+			var day = new Date(document.lastModified);
+			var y = day.getFullYear();
+			var m = day.getMonth() + 1;
+			var d = day.getDate();
+	
+			// 曜日を指定して出力
+			var week = new Array("日", "月", "火", "水", "木", "金", "土");
+			var w = week[day.getDay()];
+	
+			//日にちの整形
+			if (m < 10) m = "0" + m;
+			if (d < 10) d = "0" + d;
+	
+			// modDayに出力
+			modDay.innerHTML += "<span>更新日 </span>" + y + "年" + m + "月" + d + "日 (" + w + ")";
+		</script>
+	</div>
+
+<article>
+
+<h1>メディアコミュニケーション研究室　ーー　<ruby>中山　洋<rt>Nakayama Hiroshi<br>ナカヤマ　ヒロシ</rt></h1>
+
+<table class="ta1">
+	<tr>
+	<th>主な研究テーマ</th>
+	<td>
+		<li>
+			教育・心理ゲームやネットワーク対応教材開発
+			<ol>
+				--> 教育と心理学的手法をゲーム思考を取り入れて構築し、ICT（携帯や Ipad ）を用いて実現する。
+				　　収集したデータをBigデータとして管理分析し提示する。
+			</ol>
+
+			<ol>
+				<li>VR を用いたクッキングシュミレータ（VR空間で作る教育システムの実演（ヘッドマウントディスプレイ(VivePro使用)を使用）: 女子栄養大学と共同研究</li>
+				<li>ネットワーク対応の食育支援システム（ DB対応の小・中学生用食育学習。各種栄養素の自動分類）: 女子栄養大学と共同研究</li>
+				<li>教育・心理ゲームやネットワーク対応教材開発</li>
+			</ol>
+		</li>
+		<li>
+			香りと音と映像の科学
+			<ol>
+				--> 香りと音と映像による作品制作（初級）を実施し、作品をスポーツ、ビジネス、学習、心理学に応用する。
+			</ol>
+
+			<ol>
+				<li>デジタルサイネージ（電子掲示板）と香付きチラシ広告の効果</li>
+				<li>香りと心理的距離（男・女性からみた香りと心理的効果）</li>
+				<li>香りによる集中力・学習能力の効果</li>
+				<li>香りによるスポーツ実施時の効果（主観的運動強度）</li>
+			</ol>
+		</li>
+	</td>
+	</tr>
+
+	<tr>
+		<th>研究キーワード</th>
+		<td>教育工学 キーワード(工学、教育、情報、心理、食育、道徳) </td>
+	</tr>
+	
+	<tr>
+	<th><h3>研究室の場所</h3></th>
+	<td>12号館4階 12404室 </td>
+	</tr>
+
+	<tr>
+		<th>大学公式URL</th>
+		<td>
+			<a href="https://tinyurl.com/2cg9te9h">中山　洋</a>
+		</td>
+	</tr>
+
+	<tr>
+	<th>研究室URL</th>
+	<td>
+		<a href="http://mediacom.ne.jp/">研究室</a>
+	</td>
+	</tr>
+	
+	<tr>
+	<th>修士課程指導</th>
+	<td><font size="4" style="font-weight:bold">可</font></td>
+	</tr>
+
+	<tr>
+		<th>担当講義</th>
+		<td>システム設計論、データベース論、環境健康論A・B、教育システムデザイン論</td>
+	</tr>
+
+	<tr>
+		<th>その他</th>
+		<td>なし</td>
+	</tr>
+
+	<tr>
+		<th>編集者からのコメント</th>
+		<td>
+			<font size="2">
+				RD学系の中でもかなり人気な研究室の一つ。2023年の研究室割り当てでは、定員11名に対して、18名もの第1志望者がいた。<br>
+				中山先生の講義を受けた学生諸君の多くは共感してくれると思うのだが、中山先生は教え方が上手く、難しい内容も分かりやすく説明してくれる。<br>
+				また、性格も温厚で、学生からの人気も高い。少しでも研究テーマに興味がある人、気になる人は、ぜひ話を聞きに行ってみてほしい。
+			</font>
+		</td>
+	</tr>
+
+</table>
+
+
+<p class="c"><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
+
+</article>
+
+</main>
+
+
+<div id="sub">
+	<nav class="box1"></nav>
+	</div>
+	<!--/#sub-->
+	
+	<div id="side">
+	<nav class="box1"></nav>
+	</div>
+	<!--/#side-->
+
+</div>
+<!--/#contents-->
+
+
+
+<div id="footermenu">		
+	<ul>
+		<li class="title">メニュー見出し</li>
+		<li><a href="../../index.html">ホーム　　　　Home</a></li>
+		<li><a href="../../cafe_intro.html">食堂メニュー　Cafeteria Menu</a></li>
+		<li><a href="../../info.php">教室利用状況検索　Search for classrooms usage</a></li>
+		<li><a href="../../fac_intro.html">施設紹介　　　Facility Introduction</a></li>
+		<li><a href="../../lab_intro.html">研究室紹介　　Laboratory Introduction</a></li>
+		<li><a href="../../contact.html">お問い合わせ　Contact</a></li>
+	</ul>
+
+	<ul>
+		<li class="title">RD学系 研究室一覧</li>
+		<li><a href="item_akiyama.html">秋山　康智</a></li>
+		<li><a href="item_takahasi.html">高橋　達二</a></li>
+		<li><a href="item_nakayama.html">中山　洋</a></li>
+		<li><a href="item_katumoto.html">勝本　雄一朗</a></li>
+		<li><a href="item_shinohara.html">篠原　修二</a></li>
+		<li><a href="item_sato.html">佐藤　聖也</a></li>
+	</ul>
+</div>
+<!--/#footermenu-->
+
+<footer>
+	<small>Copyright&copy; <a href="index.html">電大DXプロジェクト</a> All Rights Reserved.</small>
+	<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+</footer>
+
+</div>
+<!--/#container-->
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--biz57用のスクリプト-->
+<script src="../../js/main.js"></script>
+
+<!--ハンバーガーボタン（開閉操作のボタン）-->
+<div id="menubar_hdr"></div>
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+</body>
+</html>

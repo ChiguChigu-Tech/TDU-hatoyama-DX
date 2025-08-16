@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>東京電機大学 電大DXプロジェクト</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="東京電機大学 理工学部 理工学科 情報システムデザイン学系 電大DXプロジェクトです。情報デザイン総合演習の実習課題として作成されました。">
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+
+<div id="container">
+	<header>
+		<h1 id="logo"><a href="../../index.html"><img src="../../images/dendaiDX-logos.jpeg" alt="SAMPLE COMPANY"></a></h1>
+		<!--ログインボタン-->
+		<div id="login"><a href="../../login.html">ログイン<img src="../../images/login.png" alt="ログイン"></a></div>
+	</header>
+
+
+<div id="menubar">
+
+<!--メインメニュー-->
+<nav>
+	<ul>
+		<li><a href="../../index.html">ホーム<span>Home</span></a></li>
+		<li><a href="../../cafe_intro.html">食堂メニュー<span>Cafeteria Menu</span></a></li>
+		<li><a href="../../info.php">教室利用状況検索<span>Search for classrooms usage</span></a></li>
+		<li><a href="../../fac_intro.html">施設紹介<span>Facility Introduction</span></a>
+			<ul>
+				<li><a href="../../fac_intro.html#1">1号館</a></li>
+				<li><a href="../../fac_intro.html#2">2号館</a></li>
+				<li><a href="../../fac_intro.html#3">3号館</a></li>
+				<li><a href="../../fac_intro.html#4">4号館</a></li>
+				<li><a href="../../fac_intro.html#5">5号館</a></li>
+				<li><a href="../../fac_intro.html#6">6号館</a></li>
+				<li><a href="../../fac_intro.html#7">7号館</a></li>
+				<li><a href="../../fac_intro.html#8">8号館</a></li>
+				<li><a href="../../fac_intro.html#9">9号館</a></li>
+				<li><a href="../../fac_intro.html#10">10号館</a></li>
+				<li><a href="../../fac_intro.html#11">11号館</a></li>
+				<li><a href="../../fac_intro.html#12">12号館</a></li>
+			</ul>
+		</li>
+		<li><a href="../../lab_intro.html">研究室紹介<span>Laboratory Introduction</span></a>
+			<ul>
+				<li><a href="../../lab_intro.html#RD">情報システムデザイン学系</a></li>
+				<li><a href="../../lab_intro.html#RU">理学系</a></li>
+				<li><a href="../../lab_intro.html#RB">生命科学系</a></li>
+				<li><a href="../../lab_intro.html#RM">機械工学系</a></li>
+				<li><a href="../../lab_intro.html#RE">電子工学系</a></li>
+				<li><a href="../../lab_intro.html#RG">建築・都市環境学系</a></li>
+			</ul>
+		</li>
+		<li><a href="../../contact.html">お問い合わせ<span>Contact</span></a></li>
+	</ul>
+</nav>
+</div>
+<!--/#menubar-->
+
+
+
+<div id="contents">
+
+<main>
+
+	<div id="modDay">
+		<script>
+			// 日付を取得
+			var day = new Date(document.lastModified);
+			var y = day.getFullYear();
+			var m = day.getMonth() + 1;
+			var d = day.getDate();
+	
+			// 曜日を指定して出力
+			var week = new Array("日", "月", "火", "水", "木", "金", "土");
+			var w = week[day.getDay()];
+	
+			//日にちの整形
+			if (m < 10) m = "0" + m;
+			if (d < 10) d = "0" + d;
+	
+			// modDayに出力
+			modDay.innerHTML += "<span>更新日 </span>" + y + "年" + m + "月" + d + "日 (" + w + ")";
+		</script>
+	</div>
+
+<article>
+
+<h1>知能情報処理システム研究室　ーー　<ruby>篠原　修二<rt>Shinohara Shuji<br>シノハラ　シュウジ</rt></h1>
+
+<table class="ta1">
+	<tr>
+	<th>主な研究テーマ</th>
+	<td>
+		<li>認知バイアスを伴う推論(因果推論)の数理モデル化と応用(内部観測研究室と共同)</li>
+		<li>音声を用いた場の盛り上がり度・共感力の測定(株式会社ZENKIGEN 、東京大学共同)</li>
+		<li>音声感情認識(株式会社AGI 、東京大学と共同)</li>
+		<li>音声情報を用いたうつ病の重症度や覚醒度の測定(PST株式会社、東京大学と共同)</li>
+		<li>動物行動解析(ダンゴムシ等)(信州大学 森山先生と共同(予定))</li>
+	</td>
+	</tr>
+
+	<tr>
+		<th>研究キーワード</th>
+		<td>医用システム, 知能情報学, 認知科学 キーワード(因果推論、共感力測定、ベイズ意思決定、認知バイアス、音声病態分析、感情認識)</td>
+	</tr>
+	
+	<tr>
+	<th><h3>研究室の場所</h3></th>
+	<td>12号館5階 12506室</td>
+	</tr>
+
+	<tr>
+		<th>大学公式URL</th>
+		<td>
+			<a href="https://tinyurl.com/234dxht8">篠原　修二</a>
+		</td>
+	</tr>
+
+	<tr>
+	<th>研究室URL</th>
+	<td>
+		なし
+	</td>
+	</tr>
+	
+	<tr>
+	<th>修士課程指導</th>
+	<td><font size="4" style="font-weight:bold">可</font></td>
+	</tr>
+
+	<tr>
+		<th>担当講義</th>
+		<td>統計学Ⅰ/Ⅱ、性格心理学、人間計測法、知能情報デザイン概論、情報システムデザイン概論、情報学基礎実習、情報デザイン演習Ⅰ/Ⅱ、情報デザイン総合演習Ⅰ/Ⅱ</td>
+	</tr>
+
+	<tr>
+		<th>その他</th>
+		<td><a href="https://researchmap.jp/shinokan99">研究業績</a></td>
+	</tr>
+
+	<tr>
+		<th>編集者からのコメント</th>
+		<td>
+
+			<font size="2">
+				2022年にできた新しい研究室の一つ。音声解析をメインに研究なさっておられ、また、それらを用いた内部情報の推定・学習システムの研究も行っているようだ。他大学・企業との共同研究も行っており、多くの方との交流が期待でき、研究の幅も広がると思います。<br>
+				加えて、高橋研との共同研究も行っており、一部の高橋研の学生さんも篠原研に所属しているようであり、研究室同士の交流も盛んであるそうだ。<br>
+				筆者は篠原先生の講義を受けたことがあるのだが、演習を通して、内容を噛み砕いて説明してくださり、また、学生さんの質問にも丁寧に答えてくださる先生であった。<br>
+				現在は、学生さんが少ないようなので、篠原先生に直接相談できる機会が多く、研究に対するモチベーションを保ちやすい環境だと思います。<br>
+			</font>
+		</td>
+	</tr>
+
+</table>
+
+
+<p class="c"><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
+
+</article>
+
+</main>
+
+
+<div id="sub">
+	<nav class="box1"></nav>
+	</div>
+	<!--/#sub-->
+	
+	<div id="side">
+	<nav class="box1"></nav>
+	</div>
+	<!--/#side-->
+
+</div>
+<!--/#contents-->
+
+
+
+<div id="footermenu">		
+	<ul>
+		<li class="title">メニュー見出し</li>
+		<li><a href="../../index.html">ホーム　　　　Home</a></li>
+		<li><a href="../../cafe_intro.html">食堂メニュー　Cafeteria Menu</a></li>
+		<li><a href="../../info.php">教室利用状況検索　Search for classrooms usage</a></li>
+		<li><a href="../../fac_intro.html">施設紹介　　　Facility Introduction</a></li>
+		<li><a href="../../lab_intro.html">研究室紹介　　Laboratory Introduction</a></li>
+		<li><a href="../../contact.html">お問い合わせ　Contact</a></li>
+	</ul>
+
+	<ul>
+		<li class="title">RD学系 研究室一覧</li>
+		<li><a href="item_akiyama.html">秋山　康智</a></li>
+		<li><a href="item_takahasi.html">高橋　達二</a></li>
+		<li><a href="item_nakayama.html">中山　洋</a></li>
+		<li><a href="item_katumoto.html">勝本　雄一朗</a></li>
+		<li><a href="item_shinohara.html">篠原　修二</a></li>
+		<li><a href="item_sato.html">佐藤　聖也</a></li>
+	</ul>
+</div>
+<!--/#footermenu-->
+
+<footer>
+	<small>Copyright&copy; <a href="index.html">電大DXプロジェクト</a> All Rights Reserved.</small>
+	<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+</footer>
+
+</div>
+<!--/#container-->
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--biz57用のスクリプト-->
+<script src="../../js/main.js"></script>
+
+<!--ハンバーガーボタン（開閉操作のボタン）-->
+<div id="menubar_hdr"></div>
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+</body>
+</html>
