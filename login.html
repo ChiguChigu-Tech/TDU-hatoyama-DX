@@ -2,35 +2,33 @@
 <html lang="ja" dir="ltr">
 <head>
 <meta charset="utf-8">
-<title></title>
+<title>管理者ログイン画面（モックアップ）</title>
 <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-<h1>ログイン画面</h1>
+<h1>管理者ログイン画面</h1>
 
 <div class="reg">
-    <form method="post" action="login.html">
-
     <table class="reg_form">
     <tr>
     <td><label for="userid">ユーザーID:</label></td>
-    <td><input type="text" name="userid"></td>
+    <td><input type="text" id="userid" disabled></td>
     </tr>
+    <tr>
     <td><label for="password">パスワード:</label></td>
-    <td><input type="password" name="password"></td>
+    <td><input type="password" id="password" disabled></td>
     </tr>
     </table>
 
-    <input type="submit" class="btn" value="Login">
-</form>
+    <button type="button" class="btn" disabled>Login</button>
 </div>
 
 <div class="explain">
-    <h2>このサイトについて</h2>
-    <p>このサイトは、電大DXプロジェクトの管理者用ログイン画面です。</p>
-    <p>ログインにはユーザIDと共通パスワードが必要です。</p>
-    <p>ユーザIDとパスワードの取得・変更は、管理者にお問い合わせください。</p>
-    <p>お問い合わせ先:電大DXプロジェクト</p>
+    <h2>この画面について</h2>
+    <p>この画面は、管理者機能のUIを検討するために作成したモックアップです。</p>
+    <p>実際のユーザー認証、パスワード照合、データベース連携、権限管理、セッション管理は実装されていません。</p>
+    <p>本プロジェクトは現在、開発・保守を終了しています。</p>
+    <p><a href="index.html">トップページへ戻る</a></p>
 </div>
 
 </body>
